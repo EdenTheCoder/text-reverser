@@ -1,4 +1,3 @@
-console.log(document.getElementById("outputText").innerText);
 function strRevese(toRevese) {
 	console.log("HI");
 	return toRevese.split("").reverse().join("");
@@ -10,13 +9,13 @@ function autoGrow() {
 }
 
 document.getElementById("submit").addEventListener("click", function () {
-	console.log("a");
 	let inText = document.getElementById("fInput").value;
 	let reveseText = strRevese(inText);
 	document.getElementById("outputText").innerText = reveseText;
 });
 document.getElementById("copyToClipBoard").addEventListener("click", function () {
-	if (document.getElementById("outputText").innertext != undefined) {
-		navigator.clipboard.writeText(document.getElementById("outputText").innerText);
-	}
+	console.log(document.getElementById("outputText").innerHTML);
+	navigator.clipboard.writeText(document.getElementById("outputText").innerHTML).then(function () {
+		alert("copied text : " + document.getElementById("outputText").innerHTML);
+	});
 });

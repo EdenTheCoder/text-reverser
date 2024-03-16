@@ -1,0 +1,94 @@
+body {
+    background-color: #131313 ;
+    text-align: center;
+    
+}
+/* elements*/
+.button{
+    margin: 15px;
+    padding: 10px 40px;
+    position: relative;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50px;
+    background: #ffffff00;
+    color: rgb(255, 0, 242);
+    font-size: 16px;
+    cursor: pointer;
+}
+ul {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal; 
+}
+a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+/* text sizes */
+.largeText{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.normalPlusText{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 45px;
+    font-weight: normal;
+}
+.normalText{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal;
+}
+.smalltext{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: normal;
+}
+.smallertext{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+}
+.devidor{
+    border-image: linear-gradient(to left,blue,red)1 ;
+    border-width: 3px;
+}
+
+.topBar{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #181818;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+}
+#fInput{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#outputTextBox{
+    border: 5px solid rgb(126, 126, 126);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}

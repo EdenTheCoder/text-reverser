@@ -1,0 +1,31 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Text reveser</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+        <ul>
+            <a href="https://edenthecoder.github.io/index.html" class="topBar">home<a>
+            <a href="https://edenthecoder.github.io/contact.html" class="topBar">contact</a>
+            <a href="https://edenthecoder.github.io/MyProjects.html" class="topBar">Projects</a>
+        </ul>
+        <hr class="devidor">
+		<h1 class="normalText">Edens text reveser</h1>
+		<hr class="devidor" />
+		<form>
+			<textarea style="text-align: center" id="fInput" rows="1" cols="60" oninput="autoGrow(this)"></textarea>
+			<br />
+			<input type="reset" value="reaset" class="button" />
+			<br />
+			<input type="button" value="submit" class="button" id="submit" />
+		</form>
+		<div id="outputTextBox">
+			<h1 class="smallertext" id="outputText"></h1>
+		</div>
+		<button class="button" id="copyToClipBoard">copy to clipboard</button>
+
+		<script src="index.js"></script>
+	</body>
+</html>

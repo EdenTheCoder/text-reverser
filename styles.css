@@ -83,7 +83,8 @@ a{
     position: relative;
 }
 #fInput{
-    width: 99%;
+    direction: ltr;
+    width: 90%;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }

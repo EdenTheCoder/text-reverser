@@ -15,21 +15,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-ul {
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: Arial;
-    font-size: 30px;
-    font-weight: normal; 
-}
-a{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial;
-    font-size: 30px;
-    font-weight: normal;
-    text-decoration: none;
-}
+
 
 /* text sizes */
 .largeText{
@@ -74,13 +60,13 @@ a{
 }
 
 .topBar{
-    display :inline-block;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: #181818;
-    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal; 
     text-align: center;
-    position: relative;
+    text-decoration: none;
+    margin: 2%;
 }
 #fInput{
     direction: ltr;

@@ -17,9 +17,9 @@ document.getElementById("submit").addEventListener("click", function () {
 	document.getElementById("outputText").innerText = reveseText;
 });
 document.getElementById("copyToClipBoard").addEventListener("click", function () {
-	console.log(document.getElementById("outputText").innerHTML);
-	navigator.clipboard.writeText(document.getElementById("outputText").innerHTML).then(function () {
-		alert("copied text : " + document.getElementById("outputText").innerHTML);
+	console.log(document.getElementById("outputText").innerText);
+	navigator.clipboard.writeText(document.getElementById("outputText").innerText).then(function () {
+		alert("copied text : " + document.getElementById("outputText").innerText);
 	});
 });
 document.getElementById("diraction button").addEventListener("click", function () {

@@ -8,27 +8,26 @@ button, .button{
     
     margin: 5px 5px;
     padding: 10px 100px;
-    position: relative;
     border: 2px solid rgb(255, 0, 242);
     border-radius: 10px;
     background: #ffffff00;
     color: rgb(255, 0, 242);
     font-size: 16px;
     cursor: pointer;
-    font-weight: normal; 
+    animation: select 2s ease-in-out;
+    transition: 200ms ease-in-out;
+    font-weight: normal;
 }
 button:hover, .button:hover{
     transform: scale(0.95);
-    transition: 200ms;
-    color: rgb(255, 134, 249);
+    transition: 200ms ease-in-out;
+    color: rgb(255, 183, 251);
     border-color: rgb(75, 40, 202);
-    z-index: 1;
 }
 button:active, .button:active{
     transform: scale(0.9);
     transition: 100ms;
-    color: rgb(255, 78, 175);
-    border-color: rgb(75, 40, 202); 
+
 }
 
 
